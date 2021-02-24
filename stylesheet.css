@@ -1,0 +1,16 @@
+.title {
+    color: #02ccba;
+}
+
+.button {
+    display      : inline-block;
+    border-radius: 5%;                   /* 角丸 */
+    box-shadow   : 6px 6px 3px rgba(102, 102, 255, 0.93);  /* 影の設定 */
+    cursor       : pointer;              /* カーソル形状 */
+    transition   : .3s;                  /* なめらか変化 */
+}
+.button:hover {
+    box-shadow   : none;                 /* 影の設定 */
+    transform    : scale(1.1,1.1);       /* 拡大 */
+}
+
